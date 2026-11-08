@@ -261,13 +261,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <transport>hwbinder</transport>
         <fqname>@1.0::IService/default</fqname>
     </hal>
-    <!-- WFD HAL Service -->
-    <hal format="hidl">
-        <name>com.qualcomm.qti.wifidisplayhal</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IDSManager/wifidisplaydshal</fqname>
-        <fqname>@1.0::IHDCPSession/wifidisplayhdcphal</fqname>
-    </hal>
     <!--eSE Powermanager-->
     <hal format="hidl">
         <name>vendor.qti.esepowermanager</name>
